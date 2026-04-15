@@ -15,3 +15,19 @@ h1{margin:0 0 14px;font-size:20px}
 .hidden{display:none}
 .status{margin-top:10px;color:#0f172a}
 .foot{margin-top:18px;color:var(--muted);font-size:13px}
+
+.actions {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  margin-top: 10px;
+}
+.btn.secondary {
+  background: #e5e7eb;
+  color: #111827;
+}
+.btn.accent {
+  background: #10b981;
+  color: white;
+  border: none;
+}
